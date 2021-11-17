@@ -1,0 +1,178 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #aab2c5;
+    line-height: 26px;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 80px;
+    font-weight: 600;
+    color: #192b59;
+}
+
+.nav {
+    font-size: 12px;
+    font-weight: 700;
+    color: #8492b7;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.btn-free {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #fff;
+    background-color: #1085e4;
+
+}
+
+.btn-grey {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #909dbb;
+    background-color: #cbdbe8;
+}
+
+.grid h2 {
+    font-size: 40px;
+    color: #192b59;
+    font-weight: 700;
+}
+
+.grid h2 span {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #1085e4;
+    display: block;
+}
+
+.grid-item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #192b59;
+}
+
+.grid-item a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1085e4;
+
+}
+
+.page-subscribe h2 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.page-subscribe h2 span {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #1085e4;
+    display: block;
+}
+
+.page-software h2 {
+    font-size: 50px;
+    color: #192b59;
+    font-weight: 600;
+}
+
+.page-software dt {
+    font-size: 16px;
+    font-weight: 700;
+    color: #77829e;
+}
+
+.page-software dd {
+    font-size: 14px;
+    font-weight: 400;
+    color: #aab2c5;
+}
+
+.page-stat h2 {
+    font-size: 50px;
+    color: #192b59;
+    font-weight: 600;
+}
+
+.page-stat h2 span {
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #1085e4;
+    display: block;
+    
+}
+
+.page-stat li {
+    font-size: 12px;
+    font-weight: 700;
+    color: #6fb6f0;
+    
+
+}
+
+.page-stat li span {
+    font-size: 60px;
+    font-weight: 700;
+    color: #bacbdc;
+    display: block;
+}
+
+.page-app h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+}
+
+.available {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: #d1dce5;
+    text-transform: uppercase;
+    
+}
+
+.page-suitable_for_anytype h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+
+}
+
+.page-easy_to_edit h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+
+}
+
+.page-screen h2 span{
+    font-size: 18px;
+    font-weight: 800;
+    color: #1085e4;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    display: block;
+}
+
+.page-screen h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #192b59;
+}
