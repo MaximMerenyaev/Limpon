@@ -41,6 +41,15 @@ h1 {
     background-color: #cbdbe8;
 }
 
+.btn-white {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #909dbb;
+    background-color: #fff;
+}
+
 .grid h2 {
     font-size: 40px;
     color: #192b59;
@@ -175,4 +184,124 @@ h1 {
     font-size: 40px;
     font-weight: 600;
     color: #192b59;
+}
+
+.page-clients span {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #84c8ff;
+    display: block;
+}
+
+.page-clients h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+.page-clients p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: 600;
+    color: #192b59;
+}
+
+.position {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1085e4;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.page-plans h2 span {
+    font-size: 18px;
+    font-weight: 800;
+    color: #1085e4;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    display: block;
+}
+
+.page-plans h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #192b59;
+
+}
+
+.box-price-item h3 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #192b59;
+}
+
+.box-price-item strong {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1085e4;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.active strong {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.active h3 {
+    color: #fff;
+}
+
+.active span {
+    color: #6978a2;
+}
+
+.nonactivetwo h3 span {
+    color: #6978a2;
+}
+
+.page-team h3 span {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #84c8ff;
+    display: block;
+}
+
+.page-team h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.page-form h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+
+}
+
+.footer p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #66719b;
+}
+
+.footer p a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1085e4;
+    text-transform: uppercase;
 }
