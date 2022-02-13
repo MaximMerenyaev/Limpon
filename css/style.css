@@ -442,8 +442,8 @@ h1 {
     width: 895px;
     height: 740px;
     position: absolute;
-    top: 200px;
-    right: 0px;
+    top: 193px;
+    right: -61px;
 }
 
 .page-company {
@@ -470,7 +470,7 @@ h1 {
 
 .list-company-item {
     display: block;
-    flex-basis: 20%;
+    flex-basis: 18%;
     background-repeat: no-repeat;
 }
 
@@ -481,7 +481,7 @@ h1 {
 
 .company-two {
     background-image: url(../img/Sponsors/bg_2_Magneto.png);
-    height: 69px;
+    height: 82px;
 }
 
 .company-three {
@@ -698,7 +698,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#091e86', end
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 2.8px;
-    padding: 16px 45px;
+    padding: 17px 44px;
 }
 .page-subscribe input {
     font-size: 14px;
@@ -712,16 +712,63 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#091e86', end
     color: white;
 }
 
-/* Chrome */
-.box-subscribe input::-webkit-input-placeholder{
-    color: #b1c3ee;
-}
-/* Mozilla */
-.box-subscribe input::-moz-placeholder{
-    color: #b1c3ee;
-}
 .box-subscribe button {
     position: relative;
     right: 204px;
 }
 
+.page-subscribe .title-h2 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.box-subscribe-user input::-webkit-input-placeholder {
+    color: #b1c3ee;
+}
+
+.box-subscribe-user input::-moz-placeholder {
+    color: #b1c3ee;
+}
+
+.box-subscribe-user input:-moz-placeholder {
+    color: #b1c3ee;
+}
+
+.box-subscribe-user input:-ms-input-placeholder {
+    color: #b1c3ee;
+}
+
+.box-subscribe-user input {
+    border: 2px solid #3f5cb1;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 30px;
+    background-color: transparent;
+    padding: 25px 230px 25px 37px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.box-subscribe-user {
+    position: relative;
+}
+
+.box-subscribe-user .btn-primary {
+    position: absolute;
+    top: 7px;
+    right: 11px;
+}
+
+.box-subscribe-child {
+    flex-basis: 49%;
+}
+
+.box-subscribe-user input:focus {
+    outline: none;
+}
+
+.box-subscribe-user .btn-primary {
+    outline: none;
+}
