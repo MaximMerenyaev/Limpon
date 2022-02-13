@@ -361,3 +361,35 @@ h1 {
     color: #1085e4;
     text-transform: uppercase;
 }
+
+/*  LR_8 Flex_nav */
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav > li {
+    padding: 0 15px;
+    margin-right: 9px;
+}
+
+.head_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 53px;
+    margin-bottom: 65px;
+}
+
+.width_ {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: block;
+    background-image: url(../img/header/Limpon-logo.png);
+    width: 185px;
+    height: 53px;
+}
