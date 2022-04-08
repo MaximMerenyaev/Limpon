@@ -5,9 +5,11 @@ body {
     color: #aab2c5;
     line-height: 26px;
 }
+
 a {
     text-decoration: none;
 }
+
 h1 {
     font-size: 80px;
     font-weight: 600;
@@ -30,7 +32,7 @@ h1 {
     display: flex;
 }
 
-.nav > li {
+.nav>li {
     padding: 0 15px;
 }
 
@@ -71,7 +73,7 @@ h1 {
     background-color: #fff;
 }
 
-.btn-group a+a{
+.btn-group a+a {
     margin-left: 15px;
 }
 
@@ -138,6 +140,7 @@ h1 {
     font-size: 40px;
     color: #192b59;
     font-weight: 700;
+    line-height: 47px;
 }
 
 .grid h2 span {
@@ -208,14 +211,14 @@ h1 {
     font-weight: 800;
     color: #1085e4;
     display: block;
-    
+
 }
 
 .page-stat li {
     font-size: 12px;
     font-weight: 700;
     color: #6fb6f0;
-    
+
 
 }
 
@@ -238,7 +241,7 @@ h1 {
     letter-spacing: 0.2em;
     color: #d1dce5;
     text-transform: uppercase;
-    
+
 }
 
 .page-suitable_for_anytype h2 {
@@ -255,7 +258,7 @@ h1 {
 
 }
 
-.page-screen h2 span{
+.page-screen h2 span {
     font-size: 18px;
     font-weight: 800;
     color: #1085e4;
@@ -402,7 +405,7 @@ h1 {
     justify-content: center;
 }
 
-.nav > li {
+.nav>li {
     padding: 0 15px;
     margin-right: 9px;
 }
@@ -439,11 +442,11 @@ h1 {
     display: block;
     background-image: url(../img/header/img_Dashboard_Admin.png);
     background-repeat: no-repeat;
-    width: 895px;
+    width: 834px;
     height: 740px;
     position: absolute;
     top: 193px;
-    right: -61px;
+    right: 0px;
 }
 
 .page-company {
@@ -652,14 +655,14 @@ h1 {
 }
 
 .page-subscribe {
-    background: rgba(9,30,134,1);
-background: -moz-linear-gradient(left, rgba(9,30,134,1) 0%, rgba(9,30,134,1) 49%, rgba(50,143,231,1) 91%, rgba(50,143,231,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(9,30,134,1)), color-stop(49%, rgba(9,30,134,1)), color-stop(91%, rgba(50,143,231,1)), color-stop(100%, rgba(50,143,231,1)));
-background: -webkit-linear-gradient(left, rgba(9,30,134,1) 0%, rgba(9,30,134,1) 49%, rgba(50,143,231,1) 91%, rgba(50,143,231,1) 100%);
-background: -o-linear-gradient(left, rgba(9,30,134,1) 0%, rgba(9,30,134,1) 49%, rgba(50,143,231,1) 91%, rgba(50,143,231,1) 100%);
-background: -ms-linear-gradient(left, rgba(9,30,134,1) 0%, rgba(9,30,134,1) 49%, rgba(50,143,231,1) 91%, rgba(50,143,231,1) 100%);
-background: linear-gradient(to right, rgba(9,30,134,1) 0%, rgba(9,30,134,1) 49%, rgba(50,143,231,1) 91%, rgba(50,143,231,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#091e86', endColorstr='#328fe7', GradientType=1 );
+    background: rgba(9, 30, 134, 1);
+    background: -moz-linear-gradient(left, rgba(9, 30, 134, 1) 0%, rgba(9, 30, 134, 1) 49%, rgba(50, 143, 231, 1) 91%, rgba(50, 143, 231, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(9, 30, 134, 1)), color-stop(49%, rgba(9, 30, 134, 1)), color-stop(91%, rgba(50, 143, 231, 1)), color-stop(100%, rgba(50, 143, 231, 1)));
+    background: -webkit-linear-gradient(left, rgba(9, 30, 134, 1) 0%, rgba(9, 30, 134, 1) 49%, rgba(50, 143, 231, 1) 91%, rgba(50, 143, 231, 1) 100%);
+    background: -o-linear-gradient(left, rgba(9, 30, 134, 1) 0%, rgba(9, 30, 134, 1) 49%, rgba(50, 143, 231, 1) 91%, rgba(50, 143, 231, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(9, 30, 134, 1) 0%, rgba(9, 30, 134, 1) 49%, rgba(50, 143, 231, 1) 91%, rgba(50, 143, 231, 1) 100%);
+    background: linear-gradient(to right, rgba(9, 30, 134, 1) 0%, rgba(9, 30, 134, 1) 49%, rgba(50, 143, 231, 1) 91%, rgba(50, 143, 231, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#091e86', endColorstr='#328fe7', GradientType=1);
 }
 
 .box-subscribe {
@@ -668,41 +671,49 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#091e86', end
     align-items: center;
     height: 521px;
 }
+
 .box-subscribe h2 {
     letter-spacing: -1.6px;
 }
+
 .box-subscribe h2 span {
     letter-spacing: 2.9px;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
+
 .page-subscribe h2 {
     font-size: 50px;
     font-weight: 600;
     color: white;
     margin-bottom: 45px;
-    
+
 }
+
 .page-subscribe span {
     font-size: 14px;
     font-weight: 800;
     color: #00bffe;
     display: block;
 }
+
 .page-subscribe p {
     font-size: 18px;
     color: #dfe8ff;
     margin-bottom: 40px;
 }
+
 .page-subscribe button {
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 2.8px;
     padding: 17px 44px;
 }
+
 .page-subscribe input {
     font-size: 14px;
 }
+
 .box-subscribe input {
     border-radius: 35px;
     padding: 24px 38px;
@@ -771,4 +782,112 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#091e86', end
 
 .box-subscribe-user .btn-primary {
     outline: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: " a b c" "d b c" "d e f" "g e f" "g h h";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 35px;
+}
+
+.grid-item-title {
+    grid-area: a;
+}
+
+.grid-item-1 {
+    grid-area: b;
+}
+
+.grid-item-2 {
+    grid-area: c;
+}
+
+.grid-item-3 {
+    grid-area: d;
+}
+
+.grid-item-4 {
+    grid-area: e;
+}
+
+.grid-item-5 {
+    grid-area: f;
+}
+
+.grid-item-6 {
+    grid-area: g;
+}
+
+.grid-text {
+    grid-area: h;
+}
+
+.grid-item {
+    text-align: center;
+    height: 301px;
+    width: 263px;
+    box-shadow: 0 0 15px #dad8d8;
+    padding: 37px;
+    line-height: 28px;
+}
+
+.grid-icon {
+    display: block;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+
+}
+
+.grid-icon-1 {
+    background-image: url(../img/Best_Features_Ever_Seen/icon_Well_documented.png);
+    width: 73px;
+    height: 79px;
+}
+
+.grid-icon-2 {
+    background-image: url(../img/Best_Features_Ever_Seen/icon_mobile_friendly_design.png);
+    width: 73px;
+    height: 79px;
+}
+
+.grid-icon-3 {
+    background-image: url(../img/Best_Features_Ever_Seen/icon_highly_customizeable.png);
+    width: 73px;
+    height: 79px;
+}
+
+.grid-icon-4 {
+    background-image: url(../img/Best_Features_Ever_Seen/icon_easy_to_edit.png);
+    width: 73px;
+    height: 79px;
+}
+
+.grid-icon-5 {
+    background-image: url(../img/Best_Features_Ever_Seen/icon_resopnsive_design.png);
+    width: 73px;
+    height: 79px;
+}
+
+.grid-icon-6 {
+    background-image: url(../img/Best_Features_Ever_Seen/icon_24on7_online_support.png);
+    width: 73px;
+    height: 79px;
+}
+
+.page-grid {
+    margin-top: 124px;
+    margin-bottom: 84px;
+}
+
+/* ::-webkit-scrollbar {
+    width: 0;
+} */
+
+.rp {
+    font-size: 10px;
+}
+
+.found {
+    font-size: 14px;
 }
