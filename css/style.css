@@ -50,6 +50,7 @@ h1 {
     padding: 20px 39px;
     border-radius: 35px;
     border: 1px solid #1085e4;
+    transition: 0.3s;
 }
 
 .btn-primary:hover {
@@ -67,6 +68,7 @@ h1 {
     padding: 19px 39px;
     border-radius: 30px;
     border: 1px solid #cbdbe8;
+    transition: 0.3s;
 }
 
 .btn-secondary:hover {
@@ -81,24 +83,29 @@ h1 {
     letter-spacing: 1.5px;
     padding: 19px 48px;
     font-weight: 400;
+    transition: 0.3s;
 
 }
 
 .btn-sub {
     letter-spacing: 2px;
     padding: 16px 47px;
+    transition: 0.3s;
 }
 
 .btn-learn {
     padding: 20px 61px;
+    transition: 0.3s;
 }
 
 .btn-choose-plan {
     padding: 20px 61px;
+    transition: 0.3s;
 }
 
 .btn-submit {
     padding: 20px 60px;
+    transition: 0.3s;
 }
 
 .btn-info {
@@ -111,6 +118,7 @@ h1 {
     padding: 20px 60px;
     border-radius: 30px;
     letter-spacing: 2.5px;
+    transition: 0.3s;
 }
 
 .btn-info:hover {
@@ -880,9 +888,6 @@ h1 {
     margin-bottom: 84px;
 }
 
-/* ::-webkit-scrollbar {
-    width: 0;
-} */
 
 .rp {
     font-size: 10px;
@@ -891,3 +896,81 @@ h1 {
 .found {
     font-size: 14px;
 }
+
+.page-software-icon {
+    display: block;
+    background-image:url(../img/Grab_your_software_section/icon_grab.png);
+    background-repeat: no-repeat;
+    width: 103px;
+    height: 92px;
+    background-position: -30px 0;
+}
+
+.page-software .title-h2 {
+    max-width: 550px;
+    margin-top: 12px;
+    margin-bottom: 26px;
+}
+
+.page-software-list dt {
+    font-weight: 700;
+    color: #5a6789;
+    margin-bottom: 50px;
+}
+
+.page-software-list dd {
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+
+.page-software-list {
+    margin-top: 30px;
+    height: 340px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.page-software-flex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.page-software-flex>div {
+    flex-basis: 55%;
+}
+
+.page-software {
+    padding: 117px 0 219px 0;
+    display: block;
+    background-image: url(/img/Grab_your_software_section/BG_grab.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    
+}
+
+.page-software-list dd {
+    margin-left: 0;
+    margin-bottom: 50px;
+    line-height: 1.8;
+}
+
+.bg-im {
+    display: block;
+    background-image: url(/img/Grab_your_software_section/imageblur_grab_you.png);
+    width: 931px;
+    height: 860px;
+    right: 940px;
+    background-size: cover;
+    position: absolute;
+    margin-bottom: 10px;
+
+}
+
+::-webkit-scrollbar { width: 3px; height: 3px;}
+/* ::-webkit-scrollbar-button {  background-color: #666; } */
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+::-webkit-scrollbar-thumb { height: 1px; background-color: rgb(92, 136, 191); border-radius: 4px;}
+::-webkit-scrollbar-corner { background-color: #999;}
+::-webkit-resizer { background-color: #666;}
+
