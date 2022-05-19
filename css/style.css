@@ -1226,7 +1226,7 @@ h1 {
 
 .page-team {
     text-align: center;
-    background: url(/img/Team/page-team.png) no-repeat top center;
+    background: url(../img/Team/page-team.png) no-repeat top center;
     padding: 86px 0 120px 0;
     margin-top: 100px;
 }
@@ -1345,7 +1345,7 @@ h1 {
 
 .sotial-team li .btn-fb {
     display: block;
-    background: url(/img/Team/box-team-item-fb.png) no-repeat;
+    background: url(img/Team/box-team-item-fb.png) no-repeat;
     width: 8px;
     height: 15px;
     margin: 17.5px auto;
@@ -1353,12 +1353,12 @@ h1 {
 }
 
 .sotial-team li .btn-fb:hover {
-    background: url(/img/Team/box-team-item-fb-w.png) no-repeat;
+    background: url(img/Team/box-team-item-fb-w.png) no-repeat;
 }
 
 .sotial-team li .btn-tw {
     display: block;
-    background: url(/img/Team/box-team-item-tweet.png) no-repeat;
+    background: url(img/Team/box-team-item-tweet.png) no-repeat;
     width: 15px;
     height: 12px;
     margin: 19px auto;
@@ -1366,12 +1366,12 @@ h1 {
 }
 
 .sotial-team li .btn-tw:hover {
-    background: url(/img/Team/box-team-item-tweet-w.png) no-repeat;
+    background: url(img/Team/box-team-item-tweet-w.png) no-repeat;
 }
 
 .sotial-team li .btn-bh {
     display: block;
-    background: url(/img/Team/box-team-item-behance.png) no-repeat;
+    background: url(img/Team/box-team-item-behance.png) no-repeat;
     width: 17px;
     height: 11px;
     margin: 18.5px auto;
@@ -1379,12 +1379,12 @@ h1 {
 }
 
 .sotial-team li .btn-bh:hover {
-    background: url(/img/Team/box-team-item-behance-w.png) no-repeat;
+    background: url(img/Team/box-team-item-behance-w.png) no-repeat;
 }
 
 .sotial-team li .btn-cr {
     display: block;
-    background: url(/img/Team/box-team-item-chrome.png) no-repeat;
+    background: url(img/Team/box-team-item-chrome.png) no-repeat;
     width: 15px;
     height: 14px;
     margin: 18px auto;
@@ -1392,5 +1392,5 @@ h1 {
 }
 
 .sotial-team li .btn-cr:hover {
-    background: url(/img/Team/box-team-item-chrome-w.png) no-repeat;
+    background: url(img/Team/box-team-item-chrome-w.png) no-repeat;
 }
